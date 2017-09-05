@@ -135,7 +135,7 @@ user2.email = "tyler.mcginnis@devmounta.in";
 
   //Code Here
 
-
+var methodCollection = {};
 
 
 /*
@@ -147,14 +147,16 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
   //Code Here
 
 
-
+methodCollection.alertHello = function () { alert('hello') };
+methodCollection.logHello = function () { console.log("hello") };
 
 
 //Now call your alertHello and logHello methods.
 
   //Code Here
 
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 
