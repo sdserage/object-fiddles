@@ -21,6 +21,14 @@ alert(me.name);
 
   //Code here
 
+var favoriteThings = {
+  band:"Linkin Park",
+  food:"Feijoada",
+  person:"TBA",
+  book:"LoTR",
+  movie:"UP",
+  holiday:"Christmas"
+}
 
 
 
@@ -31,7 +39,8 @@ alert(me.name);
 
   //Code here
 
-
+favoriteThings.car = "Volkswagon Golf TDI";
+favoriteThings.brand = "Nintendo";
 
 
 
@@ -39,7 +48,8 @@ alert(me.name);
 
   //Code here
 
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 
 
