@@ -173,7 +173,9 @@ methodCollection.logHello();
   //Code Here
 
 
-
+var makePerson = (name, birthday, ssn) => {
+  return {name:name, birthday:birthday, ssn:ssn};
+};
 
 
 
